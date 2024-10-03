@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:8080/FilesUpload",
+  baseURL: "https://capstone-backend-coht.onrender.com/FilesUpload",
   headers: {
     "Content-type": "application/json",
   },

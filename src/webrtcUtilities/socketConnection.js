@@ -9,7 +9,7 @@ const socketConnection = userName =>{
     }else{
         //its not connected... connect!
         
-        socket = io.connect('http://localhost:5173/Home',{
+        socket = io.connect('https://capstone-backend-coht.onrender.com/Home',{
             auth: {
                 // jwt,
                 password: "x",

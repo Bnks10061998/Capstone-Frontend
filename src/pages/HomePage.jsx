@@ -9,7 +9,7 @@ const HomePage = () => {
   const getUserData = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:8080/api/v1/user/getAllDoctors",
+        "https://capstone-backend-coht.onrender.com/api/v1/user/getAllDoctors",
 
         {
           headers: {

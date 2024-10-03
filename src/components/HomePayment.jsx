@@ -5,7 +5,7 @@ function HomePayment() {
   useEffect(() => {
     const createPaymentAgreement = async () => {
       try {
-        const response = await axios.post("http://localhost:8080/api/payment/agreement", {
+        const response = await axios.post("https://capstone-backend-coht.onrender.com/api/payment/agreement", {
           // Include any required data for creating the payment agreement
         });
         const { approvalUrl } = response.data;

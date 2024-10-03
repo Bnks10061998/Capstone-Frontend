@@ -9,7 +9,7 @@ import Input from '../Input/Input';
 
 import './Chat.css';
 
-const ENDPOINT = 'http://localhost:8080/Chat/StartChat';
+const ENDPOINT = 'https://capstone-backend-coht.onrender.com/Chat/StartChat';
 
 let socket;
 

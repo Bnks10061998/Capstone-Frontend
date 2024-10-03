@@ -4,7 +4,7 @@ import axios from 'axios';
 const PaymentAgreement = () => {
   const handlePaymentAgreement = async () => {
     try {
-      const response = await axios.post("http://localhost:8080/payment/agreement");
+      const response = await axios.post("https://capstone-backend-coht.onrender.com/payment/agreement");
       // You can handle the response here if needed
       console.log(response.data);
       // Redirect to the success page

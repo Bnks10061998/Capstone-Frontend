@@ -14,7 +14,7 @@ const Register = () => {
     try {
       dispatch(showLoading());
       
-      const res = await axios.post("http://localhost:8080/api/v1/user/register",values);
+      const res = await axios.post("https://capstone-backend-coht.onrender.com/api/v1/user/register",values);
       
       //console.log('URL:'+ BaseURL);
       //const BaseURL="http://localhost:8080";

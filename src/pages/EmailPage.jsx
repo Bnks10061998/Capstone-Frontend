@@ -31,7 +31,7 @@ import { Layout } from "antd";
     //  const res = await fetch(`${baseUrl}/email/sendEmail`, {
         try {
             const res = await axios.post(
-              "http://localhost:8080/email/sendEmail",
+              "https://capstone-backend-coht.onrender.com/email/sendEmail",
               {
                 headers: {
                   Authorization: "Bearer " + localStorage.getItem("token"),

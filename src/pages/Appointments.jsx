@@ -9,7 +9,7 @@ const Appointments = () => {
 
   const getAppointments = async () => {
     try {
-      const res = await axios.get("http://localhost:8080/api/v1/user/user-appointments", {
+      const res = await axios.get("https://capstone-backend-coht.onrender.com/api/v1/user/user-appointments", {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,
         },
